@@ -1,4 +1,4 @@
-module.exports.data = {
+module.exports = {
   people: require('./people'),
   films: require('./films'),
   planets: require('./planets'),
