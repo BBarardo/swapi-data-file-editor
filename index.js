@@ -30,7 +30,7 @@ for (var resource in data) {
     });
 
     fs.writeFile(
-      `${resource}.josn`,
+      `${resource}.json`,
       JSON.stringify(newResource),
       function (err) {
         if (err) return console.log(err);
