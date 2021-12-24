@@ -1,4 +1,6 @@
-export const starships = [
+const SERVER_URL = 'STRING_TO_REPLACE';
+
+module.exports.starships = [
   {
     name: 'CR90 corvette',
     model: 'CR90 corvette',

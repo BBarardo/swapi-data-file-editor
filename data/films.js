@@ -1,4 +1,6 @@
-export const films = [
+const SERVER_URL = 'STRING_TO_REPLACE';
+
+module.exports.films = [
   {
     title: 'A New Hope',
     episode_id: 4,

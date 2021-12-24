@@ -1,4 +1,6 @@
-export const planets = [
+const SERVER_URL = 'STRING_TO_REPLACE';
+
+module.exports.planets = [
   {
     name: 'Tatooine',
     rotation_period: '23',

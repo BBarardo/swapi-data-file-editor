@@ -1,4 +1,6 @@
-export const people = [
+const SERVER_URL = 'STRING_TO_REPLACE';
+
+module.exports.people = [
   {
     name: 'Luke Skywalker',
     height: '172',

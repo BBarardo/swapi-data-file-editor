@@ -1,4 +1,6 @@
-export const species = [
+const SERVER_URL = 'STRING_TO_REPLACE';
+
+module.exports.species = [
   {
     name: 'Human',
     classification: 'mammal',

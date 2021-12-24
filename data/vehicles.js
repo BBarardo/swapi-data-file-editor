@@ -1,4 +1,6 @@
-export const vehicles = [
+const SERVER_URL = 'STRING_TO_REPLACE';
+
+module.exports.vehicles = [
   {
     name: 'Sand Crawler',
     model: 'Digger Crawler',

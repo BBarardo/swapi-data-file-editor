@@ -1,6 +1,8 @@
-export { people } from "./people";
-export { films } from "./films";
-export { planets } from "./planets";
-export { species } from "./species";
-export { vehicles } from "./vehicles";
-export { startships } from "./starships";
+module.exports.data = {
+  people: require('./people'),
+  films: require('./films'),
+  planets: require('./planets'),
+  species: require('./species'),
+  vehicles: require('./vehicles'),
+  starships: require('./starships'),
+};

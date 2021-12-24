@@ -34,7 +34,7 @@ for (var resource in data) {
       JSON.stringify(newResource),
       function (err) {
         if (err) return console.log(err);
-        console.log(`${resource} > ${resource}.josn`);
+        console.log(`${resource} > ${resource}.json`);
       }
     );
   }
