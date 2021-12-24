@@ -29,13 +29,9 @@ for (var resource in data) {
       }
     });
 
-    fs.writeFile(
-      `${resource}.json`,
-      JSON.stringify(newResource),
-      function (err) {
-        if (err) return console.log(err);
-      }
-    );
+    fs.writeFile(`${resource}.js`, JSON.stringify(newResource), function (err) {
+      if (err) return console.log(err);
+    });
     console.log(`FINISH`);
   }
 }
