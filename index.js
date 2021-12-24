@@ -34,13 +34,8 @@ for (var resource in data) {
       JSON.stringify(newResource),
       function (err) {
         if (err) return console.log(err);
-        console.log(`${resource} > ${resource}.json`);
       }
     );
+    console.log(`FINISH`);
   }
 }
-
-// fs.writeFile('helloworld.txt', JSON.stringify(data), function (err) {
-//   if (err) return console.log(err);
-//   console.log('Hello World > helloworld.txt');
-// });
