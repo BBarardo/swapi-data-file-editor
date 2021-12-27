@@ -115,7 +115,7 @@ export const vehicles = [
     created: '2014-12-15T12:33:15.838000Z',
     edited: '2014-12-20T21:30:21.675000Z',
     url: `${SERVER_URL}/api/vehicles/16/`,
-    imageURL: `${SERVER_URL}/images/vehicles/TIE bomber.png`,
+    imageURL: `${SERVER_URL}/images/vehicles/TIE_sa bomber.png`,
   },
   {
     name: 'AT-AT',
@@ -134,7 +134,7 @@ export const vehicles = [
     created: '2014-12-15T12:38:25.937000Z',
     edited: '2014-12-20T21:30:21.677000Z',
     url: `${SERVER_URL}/api/vehicles/18/`,
-    imageURL: `${SERVER_URL}/images/vehicles/AT-AT.png`,
+    imageURL: `${SERVER_URL}/images/vehicles/All Terrain Armored Transport.png`,
   },
   {
     name: 'AT-ST',
@@ -400,7 +400,7 @@ export const vehicles = [
     created: '2014-12-20T16:24:16.026000Z',
     edited: '2014-12-20T21:30:21.714000Z',
     url: `${SERVER_URL}/api/vehicles/44/`,
-    imageURL: `${SERVER_URL}/images/vehicles/Zephyr-G swoop bike.png`,
+    imageURL: `${SERVER_URL}/images/vehicles/Zephyr-G swoop.png`,
   },
   {
     name: 'Koro-2 Exodrive airspeeder',
@@ -419,7 +419,7 @@ export const vehicles = [
     created: '2014-12-20T17:17:33.526000Z',
     edited: '2014-12-20T21:30:21.716000Z',
     url: `${SERVER_URL}/api/vehicles/45/`,
-    imageURL: `${SERVER_URL}/images/vehicles/Koro-2 Exodrive airspeeder.png`,
+    imageURL: `${SERVER_URL}/images/vehicles/Koro-2 all-environment exodrive airspeeder.png`,
   },
   {
     name: 'XJ-6 airspeeder',
@@ -514,7 +514,7 @@ export const vehicles = [
     created: '2014-12-20T18:12:32.315000Z',
     edited: '2014-12-20T21:30:21.731000Z',
     url: `${SERVER_URL}/api/vehicles/54/`,
-    imageURL: `${SERVER_URL}/images/vehicles/SPHA.png`,
+    imageURL: `${SERVER_URL}/images/vehicles/Self-Propelled Heavy Artillery.png`,
   },
   {
     name: 'Flitknot speeder',
@@ -742,6 +742,6 @@ export const vehicles = [
     created: '2014-12-20T20:47:49.189000Z',
     edited: '2014-12-20T21:30:21.772000Z',
     url: `${SERVER_URL}/api/vehicles/76/`,
-    imageURL: `${SERVER_URL}/images/vehicles/AT-RT.png`,
+    imageURL: `${SERVER_URL}/images/vehicles/All Terrain Reconnaissance Transport.png`,
   },
 ];

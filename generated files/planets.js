@@ -375,7 +375,7 @@ export const planets = [
     created: '2014-12-10T13:47:46.874000Z',
     edited: '2014-12-20T20:58:18.450000Z',
     url: `${SERVER_URL}/api/planets/19`,
-    imageURL: `${SERVER_URL}/images/planets/Saleucami.png`,
+    imageURL: null,
   },
   {
     name: 'Stewjon',
@@ -840,7 +840,7 @@ export const planets = [
     created: '2014-12-20T10:28:31.117000Z',
     edited: '2014-12-20T20:58:18.498000Z',
     url: `${SERVER_URL}/api/planets/46`,
-    imageURL: `${SERVER_URL}/images/planets/Tholoth.png`,
+    imageURL: null,
   },
   {
     name: 'Iktotch',
@@ -1061,7 +1061,7 @@ export const planets = [
     created: '2014-12-20T19:43:51.278000Z',
     edited: '2014-12-20T20:58:18.523000Z',
     url: `${SERVER_URL}/api/planets/59`,
-    imageURL: `${SERVER_URL}/images/planets/Kalee.png`,
+    imageURL: null,
   },
   {
     name: 'Umbara',

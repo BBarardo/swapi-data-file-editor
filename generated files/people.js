@@ -597,7 +597,7 @@ export const people = [
     created: '2014-12-18T11:07:50.584000Z',
     edited: '2014-12-20T21:17:50.362000Z',
     url: `${SERVER_URL}/api/people/27`,
-    imageURL: `${SERVER_URL}/images/people/Ackbar.png`,
+    imageURL: `${SERVER_URL}/images/people/Gial Ackba.png`,
   },
   {
     name: 'Mon Mothma',
