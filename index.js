@@ -14,22 +14,15 @@ for (var resource in data) {
     let newResource = [];
 
     data[resource][resource].forEach(element => {
-      if (!resource.includes('films') && !resource.includes('vehicles')) {
-        console.log(element?.name);
-
-        element.imageURL = `${SERVER_URL}/images/${resource}/${element?.name}.png`;
-        element.edited = new Date();
-        console.log(element);
-        newResource.push(element);
-      } else if (resource.includes('films')) {
-        console.log(element?.title);
+      if (resource.includes('films')) {
+        // console.log(element?.title);
 
         element.imageURL = `${SERVER_URL}/images/${resource}/${element?.title}.png`;
         element.edited = new Date();
-        console.log(element);
+        //         console.log(element);
         newResource.push(element);
       } else if (resource.includes('people')) {
-        console.log(element?.name);
+        // console.log(element?.name);
         let name = '';
 
         if (element?.name.includes('Ackbar')) {
@@ -39,7 +32,7 @@ for (var resource in data) {
         }
         element.imageURL = `${SERVER_URL}/images/${resource}/${name}.png`;
         element.edited = new Date();
-        console.log(element);
+        //         console.log(element);
         newResource.push(element);
       } else if (resource.includes('planets')) {
         console.log(element?.name);
@@ -50,16 +43,19 @@ for (var resource in data) {
           element?.name.includes('Tholoth') ||
           element?.name.includes('Kalee')
         ) {
+          console.log('NULINHO');
           name = null;
+          element.imageURL = name;
+          element.edited = new Date();
         } else {
           name = element?.name;
+          element.imageURL = `${SERVER_URL}/images/${resource}/${name}.png`;
+          element.edited = new Date();
         }
-        element.imageURL = `${SERVER_URL}/images/${resource}/${name}.png`;
-        element.edited = new Date();
-        console.log(element);
+        //         console.log(element);
         newResource.push(element);
       } else if (resource.includes('vehicles')) {
-        console.log(element?.name);
+        // console.log(element?.name);
 
         let name = '';
 
@@ -84,7 +80,17 @@ for (var resource in data) {
           '_'
         )}.png`;
         element.edited = new Date();
-        console.log(element);
+        //         console.log(element);
+        newResource.push(element);
+      } else if (
+        !resource.includes('films') &&
+        !resource.includes('vehicles')
+      ) {
+        // console.log(element?.name);
+
+        element.imageURL = `${SERVER_URL}/images/${resource}/${element?.name}.png`;
+        element.edited = new Date();
+        //         console.log(element);
         newResource.push(element);
       }
     });
